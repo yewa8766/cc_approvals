@@ -21,9 +21,7 @@ A data science project focused on building a tuned Logistic Regression model to 
     - [Model Training & Hyperparameter Tuning](#model-training--hyperparameter-tuning)
     - [Model Evaluation](#model-evaluation)
 4. [Results & Conclusion](#results--conclusion)
-5. [Challenges & Future Improvements](#challenges--future-improvements)
-6. [How to Run This Project](#how-to-run-this-project)
-7. [Contact](#contact)
+
 
 ---
 
