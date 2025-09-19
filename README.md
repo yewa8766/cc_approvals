@@ -76,13 +76,13 @@ This project focuses on the **Logistic Regression** model, a robust and interpre
     - `max_iter`: [100, 150, 200]
 
 The best-performing model from the grid search was then selected for final evaluation.
-
+Best: 0.818163 using {'max_iter': 100, 'tol': 0.01}
 ---
 
 ### Model Evaluation
-The primary metric used to evaluate the final model in the script is **Accuracy**. The best model from the `GridSearchCV` was evaluated on the unseen test set.
+The primary metric used to evaluate the final model in the script is 0.79386. The best model from the `GridSearchCV` was evaluated on the unseen test set.
 
-- **Final Test Set Accuracy:** `[Enter the final accuracy printed by your script, e.g., 8X.XX%]`
+- **Final Test Set Accuracy:**  79.386%
 
 **Further Evaluation:**
 While accuracy provides a good overview, a more detailed evaluation is necessary to understand the model's performance in a business context.
@@ -92,7 +92,9 @@ Calculate and display the final confusion matrix for the **test set** to show ho
 
 [[ 81  22]
  [ 25 100]]
- 
+
+- **Classification Report:**
+
               precision    recall  f1-score   support
 
            0       0.76      0.79      0.78       103
